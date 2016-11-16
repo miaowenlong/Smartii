@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SmartBeijing</string>
+    <string name="service_url">http://10.0.2.2:8080/zhbj/</string>
+</resources>

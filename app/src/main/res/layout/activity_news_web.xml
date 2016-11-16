@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_red_light">
+
+        <ImageButton
+            android:id="@+id/bt_news_web_back"
+            style="@style/style_basic_imgbutton"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/news_web_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="网站标题"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:layout_toLeftOf="@+id/bt_web_news_share"
+            android:layout_marginRight="10dp"
+            android:id="@+id/bt_web_news_txtsize"
+            style="@style/style_basic_imgbutton"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_textsize" />
+
+        <ImageButton
+            android:id="@+id/bt_web_news_share"
+            android:padding="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            style="@style/style_basic_imgbutton"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_share" />
+
+    </RelativeLayout>
+
+
+    <WebView
+        android:id="@+id/web_news"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </WebView>
+
+
+</LinearLayout>

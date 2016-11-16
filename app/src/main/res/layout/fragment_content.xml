@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.itheima.smartbeijing.view.UnScrolledViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </com.itheima.smartbeijing.view.UnScrolledViewPager>
+
+    <RadioGroup
+        android:id="@+id/rg_parent"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/bottom_tab_bg"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/rb_tab_home"
+            android:drawableTop="@drawable/rb_home_selector"
+            android:text="首页"
+            android:maxLines="1"
+            style="@style/bt_tab_style" />
+
+        <RadioButton
+            android:id="@+id/rb_tab_newcenter"
+            android:drawableTop="@drawable/rb_newscenter_selector"
+            android:text="新闻中心"
+            android:maxLines="1"
+            style="@style/bt_tab_style" />
+        <RadioButton
+            android:id="@+id/rb_tab_smartservice"
+            android:drawableTop="@drawable/rb_smartservice_selector"
+            android:text="智慧服务"
+            android:maxLines="1"
+            style="@style/bt_tab_style" />
+        <RadioButton
+            android:id="@+id/rb_tab_govaffairs"
+            android:drawableTop="@drawable/rb_govaffairs_selector"
+            android:text="政务"
+            android:maxLines="1"
+            style="@style/bt_tab_style" />
+        <RadioButton
+            android:id="@+id/rb_tab_setting"
+            android:drawableTop="@drawable/rb_setting_selector"
+            android:text="设置"
+            android:maxLines="1"
+            style="@style/bt_tab_style" />
+    </RadioGroup>
+</LinearLayout>
