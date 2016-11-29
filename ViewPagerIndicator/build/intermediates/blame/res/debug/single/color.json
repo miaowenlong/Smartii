@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\acer\\Downloads\\SmartBeijing\\ViewPagerIndicator\\build\\intermediates\\res\\merged\\debug\\color\\vpi__light_theme.xml",
+        "source": "C:\\Users\\acer\\Downloads\\SmartBeijing\\ViewPagerIndicator\\src\\main\\res\\color\\vpi__light_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\Downloads\\SmartBeijing\\ViewPagerIndicator\\build\\intermediates\\res\\merged\\debug\\color\\vpi__dark_theme.xml",
+        "source": "C:\\Users\\acer\\Downloads\\SmartBeijing\\ViewPagerIndicator\\src\\main\\res\\color\\vpi__dark_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\Downloads\\SmartBeijing\\ViewPagerIndicator\\build\\intermediates\\res\\merged\\debug\\color\\txt_tab.xml",
+        "source": "C:\\Users\\acer\\Downloads\\SmartBeijing\\ViewPagerIndicator\\src\\main\\res\\color\\txt_tab.xml"
+    }
+]
